@@ -90,6 +90,7 @@ UpgradeLog*.htm
 .ntvs_analysis.dat
 
 project.lock.json
+
 **/sample/**/wwwroot/lib/
 **/samples/**/wwwroot/lib/
 __pycache__/
