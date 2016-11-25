@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using TheWorld.Models;
 using TheWorld.Services;
 
 namespace TheWorld
@@ -38,6 +39,8 @@ namespace TheWorld
             {
 
             }
+
+            services.AddDbContext<WorldContext>();
 
             services.AddMvc();
         }
